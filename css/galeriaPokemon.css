@@ -1,38 +1,48 @@
 *{
 	margin:0px;
-	padding:0;
+	padding:0px;
 }
 
+.container{
+	border:magenta 3px solid;
+	display:flex;
+	flex-direction: row;
+}
 
+	h5{
+		font-size: x-large;
+		font-weight: bold;
+	}
+
+	h6{
+		font-size: medium;
+	}
 
 .card {
 	/*dimensiones de la tarjeta*/
 	height: 300px;
 	width: 260px;
 	/*efectos de sombra*/
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	transition: 0.3s;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s; */
 	/*ubicacion dentro del card*/
 	border: red 2px solid;
 	display:flex;
 	flex-direction:column;
-
-
-	
   }
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
   }
   
   /* Add some padding inside the card container */
   .container {
-	padding: 2px 8px;
+	padding: 0px;
 	
   }
 
-.card-body{
+.card-body{   /*caja de texto*/
 	padding:2px;
 	border: blue 2px solid;
 	text-align: center;
@@ -40,7 +50,6 @@
 }
 
 img{
-	padding:20px;
-	max-width:200px;
+	max-width:160px;
 	margin:auto;
 }
